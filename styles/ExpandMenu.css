@@ -1,0 +1,23 @@
+.SubRoutesContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px ;
+}
+.SubRoutesContainer.isMenuOpen {
+  display: none;
+}
+
+.MenuButton {
+  font-size: 1.5rem;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SubRoute {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  font-size: 1rem;
+}
