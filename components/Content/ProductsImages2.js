@@ -6,17 +6,13 @@ const ProductsImages2 = () => {
   return (
     <div className="product__right__images">
       <Image
-        src={product2}
-        className="product__right__images-top"
+        src={product1}
+        className="product__right__images-top2"
         alt="product2"
       />
-      {/* <div className="product__right__images-middle">
-        <div className="product__right__images-middle-top" />
-        <div className="product__right__images-middle-bottom" />
-      </div> */}
       <Image
-        src={product1}
-        className="product__right__images-bottom"
+        src={product2}
+        className="product__right__images-bottom2"
         alt="product1"
       />
     </div>

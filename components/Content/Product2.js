@@ -2,7 +2,7 @@ import React from "react";
 import smalllogo from "../../public/images/small-logo.png";
 import Image from "next/image";
 import { BsArrowRightShort } from "react-icons/bs";
-import ProductsImages from "./ProductsImages";
+import ProductsImages2 from "./ProductsImages2";
 
 const SmallCard = ({ title, desc }) => {
   return (
@@ -53,7 +53,7 @@ const Product2 = () => {
       </div>
 
       <div className="product__right">
-        <ProductsImages/>
+        <ProductsImages2/>
       </div>
     </div>
   );

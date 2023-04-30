@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar/Navbar'
 import Content from '@/components/Content/Content'
 import ProgLangs from '@/components/ProgLangs/ProgLangs'
 import Hero from '@/components/Hero/Hero'
+import Navigation from '@/components/Navigation/Navigation'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +20,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <Navbar/>
+        {/* <Navbar/> */}
+        <Navigation/>
         <Hero/>
         <Content/>
         <ProgLangs/>
